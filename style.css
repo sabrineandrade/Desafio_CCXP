@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  background-color: #ffd900;
+}
+
+#logo {
+  margin-top: 27px;
+  margin-left: 58px;
+  margin-bottom: 20px;
+}
+
+.conteudo {
+  display: grid;
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+#reviva {
+  display: grid;
+  grid-auto-columns: max-content;
+  text-align: center;
+  padding-left: 100px;
+  background-color: #514988;
+}
+
+#epico {
+  color: #ffd900;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 70px;
+}
+
+#dezembro {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 29px;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+
+#maiorccxp {
+  display: grid;
+  text-align: center;
+}
+
+.timer {
+  display: grid;
+  grid-auto-flow: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #514988;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+#tempos {
+  color: #e33881;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#corre {
+  color: #ffd900;
+  font-size: 27px;
+  margin: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+#imagens {
+  display: grid;
+  grid-auto-flow: column;
+  width: 220px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #514988;
+  color: #ffffff;
+  font-weight: bolder;
+  font-size: 42px;
+  width: 596px;
+  height: 148px;
+  margin-left: 210px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+}
+
+button:hover {
+  cursor: pointer;
+  color: #ffd900;
+}
